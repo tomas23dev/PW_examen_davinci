@@ -1,0 +1,117 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    width: 120rem;
+    margin: 0 auto;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+:root{
+    --color_1:#664930;
+    --color_2:#997E67;
+    --color_3:#FFDBBB;
+    --color_4:#CCBEB1;
+    --color_5:#141414;
+    --color_6:#e7e2dd;
+    --tipog_1:.montserrat-<uniquifier> {
+                font-family: "Montserrat", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: <weight>;
+                font-style: normal;
+    };
+    --tipog_2:.roboto-<uniquifier> {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+        "wdth" 100;
+    }
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+
+header{
+    background-color: var(--color_3);
+}
+
+header .logo_principal{
+    height: 8rem;
+}
+.nav-principal{
+    padding: .5rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+.nav-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.nav-div ul{
+    display: flex;
+}
+.nav-div ul li{
+    margin: 1rem 2rem;
+}
+.nav-div ul li a{
+    padding: .5rem;
+}
+.nav-div .buscador{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin:.5rem auto;
+}
+.buscador input{
+    width: 35rem;
+    height: 3rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding-left: 2rem;
+    border: solid;
+}
+.buscador button{
+    width: 5rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: solid;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+    color: #141414;
+    border-top: solid var(--color_5);
+    border-bottom: solid var(--color_5);
+}
+p{
+    font-family:"Roboto", sans-serif;;
+}
+h1,h2,h3,h4{
+    font-family: "Montserrat", sans-serif;
+}
+
+/*PRODUCTOS*/
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+}
+.home-grid img{
+    max-width: 100%;
+}
+.home-grid div{
+    border: #141414 solid;
+}

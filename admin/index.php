@@ -1,0 +1,9 @@
+<?php
+include_once("../components/header.php");
+?>
+    <main>
+        <h1>ADMIN</h1>
+    </main>
+<?php
+include_once("../components/footer.php");
+?>
