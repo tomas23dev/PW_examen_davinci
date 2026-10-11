@@ -89,7 +89,7 @@ header .logo_principal{
     border: solid;
     cursor: pointer;
 }
-a:hover{
+.nav-div a:hover{
     text-decoration: underline;
     color: #141414;
     border-top: solid var(--color_5);
@@ -113,5 +113,10 @@ h1,h2,h3,h4{
     max-width: 100%;
 }
 .home-grid div{
+    border: #141414 solid;
+}
+
+/*ADMIN*/
+table{
     border: #141414 solid;
 }
