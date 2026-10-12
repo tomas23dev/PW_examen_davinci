@@ -39,6 +39,19 @@ a{
     color: inherit;
 }
 
+footer{
+    background-color: #141414;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 1rem;
+    margin-top: 2rem;
+}
+footer img{
+    height: 3rem;
+    color: aliceblue;
+}
 
 header{
     background-color: var(--color_3);
@@ -95,11 +108,12 @@ header .logo_principal{
     border-top: solid var(--color_5);
     border-bottom: solid var(--color_5);
 }
-p{
+p,.form-items{
     font-family:"Roboto", sans-serif;;
 }
 h1,h2,h3,h4{
     font-family: "Montserrat", sans-serif;
+    margin: 2rem auto;
 }
 
 /*PRODUCTOS*/
@@ -108,15 +122,80 @@ h1,h2,h3,h4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 100%;
+    column-gap: 9rem;
+    row-gap: 3rem;
+    margin: 3rem 4rem;
 }
-.home-grid img{
-    max-width: 100%;
+.home-grid div:hover{
+    background-color: var(--color_3);
 }
 .home-grid div{
-    border: #141414 solid;
+    border: #CCBEB1 solid 1px;
+    border-radius: .5rem;
+    box-shadow: 9px 9px rgba(121, 77, 77, 0.088);
+    display: flex;
+    flex-direction: column;
+
+}
+.home-grid img{
+    width: 100%;
+    transform: scale(0.8);
+    box-shadow: 0px 10px grey;
+}
+.home-grid figcaption{
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
+.precio-producto{
+    text-align: center;
+    font-weight: bold;
+    margin: 2rem auto;   
+    font-size: 1.5rem ;
+}
+
+.titulo-producto,.calificacion-producto{
+    text-align: center;
+}   
+
+/*contacto*/
+.main-form section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3rem;
+}
+.login-form{
+    border: #997E67 solid 1px;
+    border-radius: 1rem;
+    padding: 3rem 4rem;
+}
+.login-form div{
+    margin: 2rem auto;
+}
+.form-items input{
+    height: 2rem;
+}
+
+/*BOTONES FORM*/
+
+.boton_envio_form{
+    cursor: pointer;
+    background-color: #141414;
+    color: #e7e2dd;
+    border: none;
+    padding: .8rem 1.3rem;
+    border-radius: 1rem;
+}
+.boton_envio_form:hover{
+    background-color: #e7e2dd;
+    color: #141414;
+}
+.enlace_registro:hover{
+    text-decoration: underline;
+}
 /*ADMIN*/
 table{
     border: #141414 solid;
 }
+

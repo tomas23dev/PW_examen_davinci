@@ -1,5 +1,5 @@
 <?php
-include_once("../components/header.php");
+include_once("../components/headerAdm.php");
 ?>
     <main>
         <h1>PANEL ADMINISTRADOR - PRODUCTOS</h1>

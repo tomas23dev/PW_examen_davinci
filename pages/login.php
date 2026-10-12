@@ -3,23 +3,26 @@
 include_once("../components/header.php");
 
 ?>
-<form action="#" method="get" class="login_form"> 
-    
+<main class="main-form">
+    <h1>INICIO DE SESION</h1> 
+    <section>
+        <form action="#" method="get" class="login-form">  
+            <div class="form-items"> 
+                <label for="correo">Email</label> 
+                <input type="email" id="correo" placeholder="name@example.com" name="correo"> 
+            </div> 
+            <div class="form-items""> 
+                <label for="password">Clave</label> 
+                <input type="password" id="password" name="password"> 
+            </div> 
+            <button class="boton_envio_form" type="submit">Iniciar Sesion</button> 
+            <div class="enlace_registro">
+                <a href="../pages/registro.php" class="">Registrate Aqui para crear una cuenta nueva</a>
+            </div>
+        </form>
+    </section>
+</main>
 
-    <h1 class="h3 mb-3 fw-normal">Inicio de Sesion</h1> 
-    <div class="form-floating"> 
-        <label for="floatingInput">Correo electronico</label> 
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="correo"> 
-    </div> 
-    <div class="form-floating"> 
-        <label for="floatingPassword">Clave</label> 
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="clave"> 
-    </div> 
-    <button class="btn btn-primary w-100 py-2" type="submit">Iniciar</button> 
-    <div class="div_enlace_registro">
-        <a href="../pages/registro.php" class="enlace_registro">Registrate para crear una cuenta nueva</a>
-    </div>
-</form>
 
 <?php 
 
