@@ -19,13 +19,13 @@ include_once("../components/headerAdm.php");
             </thead>
             <tbody>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>ADMIN</td>
+                    <td>TRADOR</td>
+                    <td>admin@gmail.com</td>
+                    <td>12345</td>
+                    <td>BOTON</td>
+                    <td>BOTON</td>
+                    <td>BOTON</td>
                 </tr>
             </tbody>
         </table>

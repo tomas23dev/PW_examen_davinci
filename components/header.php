@@ -13,7 +13,14 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
-    <header>        
+    <header>
+        <?php
+        if(isset($_GET['msn'])){
+            $user_sesion=$_GET['msn'];
+        }else{
+            $user_sesion="Inicio de Sesion";
+        }
+        ?>
         <nav class="nav-principal">
             <a href="../index.php">
                 <img class="logo_principal" src="../assets/img/logo_negocio.png" alt="logo del negocio">
@@ -22,14 +29,14 @@
                 <ul>
                     <li><a href="../pages/home.php">Inicio</a></li>
                     <li><a href="../pages/contact.php">Contactenos</a></li>
-                    <li><a href="../pages/login.php">Ingreso</a></li>
-                    <li><a href="../admin/index.php">Admin</a></li>
-                </ul>           
+                    <li><a href="../pages/productosTodos.php">Productos</a></li>
+                    <li><a href="../pages/login.php"><?php print"$user_sesion"?></a></li>
+                </ul>    
                 <div class="buscador">
                     <label for="buscador"></label>
                     <input type="text" name="buscador" id="buscador" placeholder="Consultar producto...">
                     <button type="submit">🔍</button>
-                </div>
+                </div>       
             </div>
         </nav> 
 

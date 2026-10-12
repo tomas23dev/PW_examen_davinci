@@ -14,20 +14,18 @@ include_once("../components/headerAdm.php");
                     <th>Fecha</th>
                     <th>Ranking</th>
                     <th>Activo/Inactivo</th>
-                    <th>Aprobar</th>
-                    <th>Desaprobar</th>
+                    <th>Aprobar/Desaprobar</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Tomas</td>
+                    <td>Cepillo dental</td>
+                    <td>Me gusto, pero muy caro!</td>
+                    <td>11/10/2026</td>
+                    <td>1</td>
+                    <td>Activo</td>
+                    <td>Aprobado</td>
                 </tr>
             </tbody>
         </table>

@@ -16,10 +16,10 @@ include_once("../components/headerAdm.php");
             </thead>
             <tbody>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>COLGATE</td>
+                    <td>BOTON</td>
+                    <td>BOTON</td>
+                    <td>BOTON</td>
                 </tr>
             </tbody>
         </table>

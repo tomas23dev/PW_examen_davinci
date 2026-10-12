@@ -2,6 +2,23 @@
 include_once("../components/header.php");
 ?>
     <main>
+        <?php 
+        
+        if(isset($_GET['msn'])){
+            $mensaje=$_GET["msn"];
+            print"<h2>Bienvenido: $mensaje</h2>";
+        }
+            
+        ?>
+        <section>
+            <img src="../assets/img/fondo/publicidad1.jpg" alt="publicidad" width="100%">
+        </section>
+
+        
+        
+
+
+
         <h1>Productos</h1>
         <section class="home-grid">
 
@@ -89,7 +106,11 @@ include_once("../components/header.php");
                     </div>
                 </div>
             </a>
+
         </section>
+        <div class="padre_centrar">
+            <button class="boton_envio_form centrar" type="submit">Mostrar Mas (Proximamente)</button> 
+        </div>
     </main>
 <?php
 include_once("../components/footer.php");

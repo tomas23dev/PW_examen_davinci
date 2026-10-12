@@ -23,17 +23,16 @@ include_once("../components/headerAdm.php");
             </thead>
             <tbody>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Pasta dental</td>
+                    <td>Colgate</td>
+                    <td>Black and white</td>
+                    <td>Salud</td>
+                    <td>10000</td>
+                    <td>Null</td>
+                    <td>Null</td>
+                    <td>BOTON</td>
+                    <td>BOTON</td>
+                    <td>BOTON</td>
                 </tr>
             </tbody>
         </table>

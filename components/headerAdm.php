@@ -21,6 +21,7 @@
             <div class="nav-div">
                 <ul>
                     <li><a href="../admin/index.php">Inicio</a></li>
+                    <li><a href="../pages/login.php">Cerrar Sesion</a></li>
 
                 </ul>
             </div>

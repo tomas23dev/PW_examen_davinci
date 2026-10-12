@@ -60,6 +60,14 @@ header{
 header .logo_principal{
     height: 8rem;
 }
+.padre_centrar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.centrar{
+    text-align: center;
+}
 .nav-principal{
     padding: .5rem 1.5rem;
     display: flex;
@@ -198,4 +206,21 @@ h1,h2,h3,h4{
 table{
     border: #141414 solid;
 }
+.admin_panel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 7rem;
+    margin: 3rem auto;
+}
+.admin_panel div a{
+    border: 2px solid var(--color_3);
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: #141414;
+    color: white;
+    
+}
+.admin_panel div a:hover{
+    background-color: tan;
 
+}

@@ -18,12 +18,11 @@ include_once("../components/headerAdm.php");
             </thead>
             <tbody>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Bienestar personal</td>
+                    <td>Salud</td>
+                    <td>BOTON</td>
+                    <td>BOTON</td>
+                    <td>BOTON</td>
                 </tr>
             </tbody>
         </table>
